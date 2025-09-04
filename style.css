@@ -28,12 +28,13 @@ h1{
     margin-bottom: 40px;
 }
 
-.container-tempo {
+.tempo {
     display: flex;
     gap: 20px;
     justify-content: center;
     list-style: none;
     margin-bottom: 40px;
+    color: violet;
 }
 
 .container-tempo li{
