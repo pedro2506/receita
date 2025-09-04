@@ -35,3 +35,18 @@ h1{
     list-style: none;
     margin-bottom: 40px;
 }
+ p{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+
+ .container-ingredientes{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 30px;
+    padding: 10px;
+    gap: 12px;
+    font-weight: bold;
+ }
