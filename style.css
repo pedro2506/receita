@@ -23,7 +23,7 @@ h1{
 }
 
 .container-imagem{
-    border: 3px solid grey;
+    border: 3px solid black;
     border-radius: 15px;
     margin-bottom: 40px;
 }
@@ -34,33 +34,47 @@ h1{
     justify-content: center;
     list-style: none;
     margin-bottom: 40px;
-    color: violet;
+    color: blue;
     margin: 15px 0;
     border-radius: 10px;
 }
 
-.container-tempo li{
-    background-color: pink;
+.tempo li{
+    background-color: goldenrod;
     padding: 15px;
     width: fit-content;
     border-radius: 8px;
 }
+ li{
+    background-color: goldenrod;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 8px;
+     margin-bottom: 5px;
+   font-size: 20px;
+   display: flex;
+   margin-bottom: 20px;
+padding: 10px;
+align-items: center;
+}
+
  p{
     text-align: center;
     margin-bottom: 50px;
- }
-
- .container-ingredientes{
-    background-color: orange;
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin-bottom: 30px;
-    padding: 10px;
-    gap: 12px;
+    font-style: italic;
     font-weight: bold;
+ 
  }
-
- .container-ingredientes li{
-    background-color: green;
- }
+ ol{
+    
+      list-style: none;        /* remove a numeração */
+      padding: 0;
+      margin: 5px;
+      text-align: center; 
+      display: inline-block;  
+      background-color: grey; 
+      padding: 5px 15px;
+      border: 2px solid #333;
+      border-radius: 8px;
+      font-weight: bold;     /* centraliza o texto */
+}
