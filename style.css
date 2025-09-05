@@ -113,3 +113,14 @@ header img {
 .modo-preparo li {
   margin-bottom: 10px;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #ffbf49;
+  padding: 20px 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 200px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
